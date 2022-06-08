@@ -84,12 +84,12 @@ const button = document.querySelector(
 
 const searchPhotos = (userEvent) => {
   console.log(userEvent);
-  /* if (userEvent.key === "Enter") {
+  if (userEvent.key === "Enter") {
     loadImages(userEvent.target.value);
   } else if (userEvent.type === "click") {
     loadImages(input.value);
-  } */
+  }
 };
 
-/* input.addEventListener("keyup", searchPhotos);
-button.addEventListener("click", searchPhotos); */
+input.addEventListener("keyup", searchPhotos);
+button.addEventListener("click", searchPhotos);
